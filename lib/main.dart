@@ -64,9 +64,9 @@ class _AutofillPageState extends State<AutofillPage> {
               children: [
                 TextField(
                   controller: email,
-                  keyboardType: TextInputType.emailAddress,
+                  keyboardType: TextInputType.text,
                   decoration: InputDecoration(labelText: "Username"),
-                  autofillHints: const [AutofillHints.email],
+                  autofillHints: const [AutofillHints.username],
                   textInputAction: TextInputAction.next,
                 ),
                 TextField(
